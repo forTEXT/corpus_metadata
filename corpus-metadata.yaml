@@ -1,0 +1,58 @@
+# fortext corpus metadata draft 0.1
+---
+
+## obligatory
+#
+id:     example-id1             # dc -- id in new corpus + original id (i.e. d-prose-ID)
+file:   "filename"              #    -- transliteration of special characters ö->oe 
+title:  "The title of the text" # dc -- 
+format: "text/plain"            # dc -- mime type of the file format 
+
+origin: "name of repository"    #    -- where the text was found    
+  type-of-origin: repository    #    -- repository, print 
+
+- date:   1784                    # or date range if posthumus 
+  type-of-date: use
+
+wordcount:  1234
+  method:   wc
+
+# Author name ???
+
+## further information
+    
+author:
+  - name:   
+      firstname: First
+      lastname: Last 
+    alias:  "A pseudonym"
+    date-of-birth: 1760-03-24   # iso-date
+    date-of-death: 1802-10-12
+    nationality: "prussian"
+    place-of-birth: "Berlin"
+    place-of-death: "Vienna"
+    gender: female
+    gnd-id: 1234444456
+
+
+publication-type: posthumus     # assign tag unpublished, posthumus, etc.
+publisher:  "name of publishing house"
+shorthand:  "SH1"
+type-token-ratio: 0.8
+
+gnd-id:     123456789
+  
+
+
+
+genre:    "novel"
+  unified-genre: "genre desgnator"
+  peritext: "hmm"
+  research: "term" 
+
+gattung:  "???"  
+epoch:    "romanticism"
+    
+
+
+...
