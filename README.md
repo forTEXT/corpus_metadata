@@ -1,6 +1,6 @@
 # fortext.lab corpus metadata
 
->! info
+> [!IMPORTANT] 
 > This is in very early alpha stage
 
 
